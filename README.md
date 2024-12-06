@@ -67,6 +67,7 @@ Welcome to my **Entra ID Scripts** repository! This collection of scripts is des
 - **new-user-with-groups-runbook.ps1**: Script userd to create new users with group assignment for Azure Runbooks.
 - **user-members-export.ps1**: Script export a list of users and their membershipt with Azure Entra ID.
 - **user-password-policy.ps1**: Script to update Password policy for Azure Entra ID Users.
+- **create-microsoft-teams-group.ps1**: Script to create MS Teams Group and use along with Jira Automation and Azure runbook.
 
 ## Contributing
 
