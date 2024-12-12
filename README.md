@@ -69,6 +69,7 @@ Welcome to my **Entra ID Scripts** repository! This collection of scripts is des
 - **user-password-policy.ps1**: Script to update Password policy for Azure Entra ID Users.
 - **create-microsoft-teams-group.ps1**: Script to create MS Teams Group and use along with Jira Automation and Azure runbook.
 - **create-sharepoint-folders-azure-runbooks.ps1**: Script to create Microsoft SharePoint folders in a given Site and Drive ID along side Azure rubooks and automation.
+- **disable-entra-id-user-runbook.ps1**: Powershell script to disable Entra ID users using the Graph API, Azure runbooks and Jira automation.
 
 ## Contributing
 
