@@ -58,20 +58,21 @@ Welcome to my **Entra ID Scripts** repository! This collection of scripts is des
 
 ## Scripts
 
-- **all-MS365-email-and-alias-address.ps1**: Pulls a list of all email addresses including alias for your MS365 / Entra ID users. 
-- **entraid-group-membership-add.ps1**: Script used along with Azure Runbooks and Jira Automation to update Entra ID Users group membeship.
+- **all-MS365-email-and-alias-address.ps1**: Pulls a list of all email addresses, including alias, for your MS365 / Entra ID users. 
+- **entraid-group-membership-add.ps1**: Script used along with Azure Runbooks and Jira Automation to update Entra ID Users group membership.
 - **entraid-user-attribute-update.ps1**: Script used along with Azure Runbooks and Jira Automation to update Entra ID Users attributes.
 - **export-teams-member-roles.ps1**: Script to list all your MS365 Teams, members and their roles. 
 - **ms365-mailbox-report.ps1**: Exports list of all MS365 active mailboxes.
-- **new-user-azure-runbook.ps1**: Script to create new user via PowerShell for Azure Runbooks and Jira Automation use.
-- **new-user-with-groups-runbook.ps1**: Script userd to create new users with group assignment for Azure Runbooks.
-- **user-members-export.ps1**: Script export a list of users and their membershipt with Azure Entra ID.
+- **new-user-azure-runbook.ps1**: Script to create a new user via PowerShell for Azure Runbooks and Jira Automation use.
+- **new-user-with-groups-runbook.ps1**: Script used to create new users with group assignment for Azure Runbooks.
+- **user-members-export.ps1**: Script exports a list of users and their membership with Azure Entra ID.
 - **user-password-policy.ps1**: Script to update Password policy for Azure Entra ID Users.
 - **create-microsoft-teams-group.ps1**: Script to create MS Teams Group and use along with Jira Automation and Azure runbook.
-- **create-sharepoint-folders-azure-runbooks.ps1**: Script to create Microsoft SharePoint folders in a given Site and Drive ID along side Azure rubooks and automation.
+- **create-sharepoint-folders-azure-runbooks.ps1**: Script to create Microsoft SharePoint folders in a given Site and Drive ID alongside Azure rubbooks and automation.
 - **disable-entra-id-user-runbook.ps1**: Powershell script to disable Entra ID users using the Graph API, Azure runbooks and Jira automation.
 - **Add-an-Alias-to-Every-Users-Mailbox-and-Group.ps1**: Azure CloudShell script to add alias address to all MS365 members and distribution groups.
-- **Enroll-Device-Intune-AutoPilot.ps1**: PowerShell script to enroll a Windows device with Intune's Microsfot AutoPilot. 
+- **Enroll-Device-Intune-AutoPilot.ps1**: PowerShell script to enroll a Windows device with Intune's Microsoft AutoPilot.
+- **ms365-group-automation-slack.ps1**: PowerShell script to run within Azure Runbooks to automatically add a user to a group based on an attribute. Then sends a Slack alert.
 
 ## Contributing
 
@@ -80,4 +81,4 @@ Your contributions are welcome! If you have scripts or improvements to share, pl
 
 ## Support
 
-If you have any issues or questions, please create an issue in this repository or contact me direct.
+If you have any issues or questions, please create an issue in this repository or contact me directly.
